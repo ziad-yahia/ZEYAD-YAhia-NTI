@@ -54,6 +54,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST"  && !empty($_POST) ){
 
     //form validate
     $errors=[];
+    
     if(empty($_POST['email'])){
 
         $errors['email']="<h1 class='text-danger font-weight-bold'>* Email is requierd</h1>";
@@ -109,7 +110,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST"  && !empty($_POST) ){
     </form>
 
 </div>
-<?php echo $users[0]['gender'] ;?>
+<!-- <?php //echo $users[0]['gender'] ;?> -->
 
 
 <?php

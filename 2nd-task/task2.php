@@ -74,6 +74,19 @@ $users = [
             "school" => 'painting',
             'home' => 'drawing'
         ],
+    ],(object)[
+        'id' => 6,
+        'name' => 'osama',
+        "gender" => (object)[
+            'gender' => 'm'
+        ],
+        'hobbies' => [
+            'running',"read story"
+        ],
+        'activities' => [
+            "school" => 'painting',
+            'home' => 'drawing'
+        ],
     ],
     
 ];

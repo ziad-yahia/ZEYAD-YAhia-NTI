@@ -1,4 +1,4 @@
-<?php
+<?php 
 if($_POST)
 {
     $checknumber=$_POST['the-Num'];
@@ -22,6 +22,8 @@ if($_POST)
     // }
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
